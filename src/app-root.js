@@ -28,16 +28,8 @@ export class AppRoot extends LitElement {
   render() {
     return html`
       <div class="wrapper">
-        <h1>LitElement + Snowpack 🤓</h1>
-        <p>Edit <code>src/app-root.js</code> and save to reload.</p>
-        <a
-          class="link"
-          href="https://lit-element.polymer-project.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          ${this.message}
-        </a>
+        <h1>CI/CD 🤓 Integración continua</h1>
+        <p>Edit <code>src/app-root.js</code> and save to reload.</p>       
       </div>
     `;
   }
